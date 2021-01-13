@@ -1,0 +1,17 @@
+// Importar estilos XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+    // Cores do projeto
+    @import '@/assets/scss/_colors.scss';
+
+// Estilo dessa Página XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+.Texto{
+    text-align: justify;
+    color:$cor_cinza_claro;
+}
+    
+.Titulo{
+    color:$cor_cinza_escuro;
+    margin-bottom:15px;
+    font-size: 25px;
+}

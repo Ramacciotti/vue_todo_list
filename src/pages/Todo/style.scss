@@ -1,0 +1,51 @@
+// Importar estilos XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+    // Cores do projeto
+    @import '@/assets/scss/_colors.scss';
+
+// Estilo dessa Página XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+  
+    #Container   {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .Alerta {
+        background-color: $cor_alerta;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+    }
+
+    .Botao_Alerta {
+        color:white;
+        border: solid 2px;
+    }
+
+    .Linha_1 {
+        flex: 1;
+        height: 140px;
+        margin-bottom:0px;
+    }
+
+    .Linha_2 {
+        flex: 1;
+    }
+
+    .Linha_3 {
+        flex: 1;
+        margin-top:10px;
+    }
+
+    .Background_Lista {
+        background-color:$cor_azul_claro;
+    }
+
+    .grow {
+        color:white important;
+    }   
+
+    .Checkbox{
+        margin-left:3px;
+    }
